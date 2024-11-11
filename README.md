@@ -144,3 +144,36 @@ This repository contains a collection of computer vision projects aimed at build
 
 ---
 
+
+
+## References
+
+### Motion-Based Object Tracking with Background Subtraction**
+**example_video.avi**
+
+```bibtex
+@inproceedings{sunderrajan2015robust,
+  title={Robust Multiple Camera Tracking with Spatial And Appearance Contexts},
+  author={Sunderrajan, Santhoshkumar and Jagadeesh, Vignesh and Manjunath, BS},
+  year={2015},
+}
+
+@inproceedings{sunderrajan2013Multiple, 
+  author={Sunderrajan, S. and Manjunath, B.S.}, 
+  booktitle={Distributed Smart Cameras (ICDSC), 2013 Seventh International Conference on}, 
+  title={Multiple view discriminative appearance modeling with IMCMC for distributed tracking}, 
+  year={2013}, 
+  month={Oct}, 
+  pages={1-7}, 
+  doi={10.1109/ICDSC.2013.6778203},
+}
+
+@inproceedings{ni2010distributed,
+  title={Distributed particle filter tracking with online multiple instance learning in a camera sensor network},
+  author={Ni, Zefeng and Sunderrajan, Santhoshkumar and Rahimi, Amir and Manjunath, BS},
+  booktitle={Image Processing (ICIP), 2010 17th IEEE International Conference on},
+  pages={37--40},
+  year={2010},
+  organization={IEEE}
+}
+
