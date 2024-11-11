@@ -26,10 +26,10 @@ In this project, the input video is processed to separate the moving foreground 
 - The following images show an example frame from the original video and the corresponding frame after applying background subtraction and tracking.
 
 ### Original Frame
-![Original Frame](documentation/original_frame.png)
+![Original Frame](original_frame.png)
 
 ### Tracking Frame (with MOG2)
-![Tracking Frame](documentation/tracking_frame_mog.png)
+![Tracking Frame](tracking_frame_mog.png)
 
 ## Running the Project
 
