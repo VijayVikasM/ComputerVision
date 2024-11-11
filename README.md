@@ -14,7 +14,7 @@ This repository contains a collection of computer vision projects aimed at build
 ### Project 2: Motion-Based Object Tracking with Background Subtraction
 - **Description**: Identify and track moving objects using background subtraction algorithms like MOG2 or KNN for dynamic backgrounds.
 - **Skills**: Background subtraction, OpenCV.
-- **Datasets**: [PETS dataset](https://www.cvpapers.com/datasets.html#pets).
+- **Datasets**: [PETS dataset](http://www.santhoshsunderrajan.com/datasets.html).
 
 ---
 
