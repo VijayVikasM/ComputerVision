@@ -50,10 +50,10 @@ You can change the YOLO model used for detection by modifying `MODEL_PATH` in `c
 
 Below are example frames showcasing detections made using YOLO with Ultralytics:
 
-### Original Frame
+### Detection Frame - Only Person
 ![Detection Frame 1](detection_frame01.png)
 
-### Detection and Tracking Frame
+### Detection Frame - Person, Cycle and Car
 ![Detection Frame 2](detection_frame02.png)
 
 The first image shows the original frame, and the second image illustrates the results after applying YOLO for detection and tracking. Each detected object is marked with a bounding box, label, and confidence score, color-coded by class.
