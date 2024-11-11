@@ -9,7 +9,7 @@ This repository contains a collection of computer vision projects aimed at build
 ### Project 1: Multi-Object Detection and Tracking in Video Feeds
 - **Description**: Detect and track multiple objects in real-time video feeds (e.g., people, vehicles, animals) using YOLO or Faster R-CNN and the SORT algorithm.
 - **Skills**: YOLO, SORT, OpenCV.
-- **Datasets**: [MOT20 dataset](https://motchallenge.net/).
+- **Datasets**: [Camera feed Roadside](https://github.com/intel-iot-devkit/sample-videos?tab=readme-ov-file).
 
 ### Project 2: Motion-Based Object Tracking with Background Subtraction
 - **Description**: Identify and track moving objects using background subtraction algorithms like MOG2 or KNN for dynamic backgrounds.
