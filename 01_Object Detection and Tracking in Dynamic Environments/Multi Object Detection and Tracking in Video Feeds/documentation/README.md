@@ -18,7 +18,7 @@ This project performs real-time multi-object detection and tracking using YOLO m
 
 - OpenCV
 - Ultralytics YOLO
-- `lap` (for object tracking functionality in Ultralytics)
+- `lapx` (for object tracking functionality in Ultralytics)
 
 Install all dependencies with:
 ```bash
