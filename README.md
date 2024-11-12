@@ -23,7 +23,7 @@ This repository contains a collection of computer vision projects aimed at build
 ### Project 1: Depth Estimation from Stereo Images
 - **Description**: Estimate depth from stereo images by implementing disparity mapping techniques.
 - **Skills**: Stereo vision, depth estimation, OpenCV.
-- **Datasets**: [KITTI dataset](http://www.cvlibs.net/datasets/kitti/).
+- **Datasets**: [Stereo Image Pairs](https://vision.middlebury.edu/stereo/data/scenes2021/).
 
 ### Project 2: Monocular Depth Estimation Using Deep Learning
 - **Description**: Use a deep learning model (like DenseDepth) to predict depth from a single RGB image.
