@@ -43,9 +43,9 @@ vmax=144
 ## Example Outputs
 
 ### Original Stereo Images
-![Left Image](data/chess1/left_image.png) ![Right Image](data/chess1/right_image.png)
+![Left Image](left_image.png) ![Right Image](right_image.png)
 
 ### Depth Map
-![Depth Map](documentation/disparity_map.png)
+![Depth Map](disparity_map.png)
 
 The depth map shows closer objects in lighter shades and farther objects in darker shades.
