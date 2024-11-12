@@ -27,18 +27,16 @@ calibration = load_calibration()
 cam0_matrix = calibration.get("cam0")
 focal_length = None
 if cam0_matrix:
-    # Extract the first element in cam0 matrix, which is the focal length (f)
     match = re.match(r"\[(\d+\.\d+)", cam0_matrix)  
     if match:
         focal_length = float(match.group(1))
 
-# Use default focal length if none found
 focal_length = focal_length if focal_length else 1758.23  # Default from example if missing
-print(focal_length)
-# Baseline in meters (convert from mm)
-baseline = float(calibration.get("baseline", 111.53)) / 1000
+baseline = float(calibration.get("baseline", 111.53)) / 1000  # Convert baseline from mm to meters
+doffs = float(calibration.get("doffs", 0))  # Offset for depth calculation
 
-# Optional parameters
-doffs = float(calibration.get("doffs", 0))  # Offset
-NUM_DISPARITIES = int(calibration.get("ndisp", 290))  # Number of disparities
-BLOCK_SIZE = 15  # Block size for stereo matching (set as per requirements)
+# Disparity Parameters
+DISPARITY_ALGORITHM = "SGBM"  # Choose between "BM" and "SGBM"
+NUM_DISPARITIES = int(calibration.get("ndisp", 288))  # Number of disparities
+MIN_DISPARITY = int(calibration.get("mindisp", 64))  # Number of disparities
+BLOCK_SIZE = 15  # Block size for stereo matching (should be odd)
