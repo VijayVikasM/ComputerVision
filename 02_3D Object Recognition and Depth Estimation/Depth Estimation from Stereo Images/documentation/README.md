@@ -40,9 +40,16 @@ vmin=25
 vmax=144
 ```
 
-## Disparity Mapping Approaches
+## Example Outputs
+
+### Original Stereo Images
+![Left Image](left_image.png) ![Right Image](right_image.png)
+
+The depth maps display closer objects in lighter shades and farther objects in darker shades, with SGBM offering greater accuracy for complex scenes.
+
 
 This project offers two main approaches for computing the disparity map, each with different strengths:
+
 
 ### 1. Stereo Block Matching (SBM)
 
@@ -70,9 +77,3 @@ Example output using **SGBM**:
 
 The SGBM-generated disparity map shows fewer artifacts and a smoother, more reliable depth estimation, making it well-suited for applications requiring higher precision.
 
-## Example Outputs
-
-### Original Stereo Images
-![Left Image](left_image.png) ![Right Image](right_image.png)
-
-The depth maps display closer objects in lighter shades and farther objects in darker shades, with SGBM offering greater accuracy for complex scenes.
