@@ -25,9 +25,9 @@ This repository contains a collection of computer vision projects aimed at build
 - **Skills**: Stereo vision, depth estimation, OpenCV.
 - **Datasets**: [Stereo Image Pairs](https://vision.middlebury.edu/stereo/data/scenes2021/).
 
-### Project 2: Monocular Depth Estimation Using Deep Learning
-- **Description**: Use a deep learning model (like DenseDepth) to predict depth from a single RGB image.
-- **Skills**: CNNs, monocular depth estimation, PyTorch/TensorFlow.
+### Project 2: Monocular Depth Estimation Using Deep Learning on a live camera feed
+- **Description**: Use a deep learning model (like MiDaS and DepthAnything ) to predict relative depth from a live web cam feed.
+- **Skills**: CNNs, Vision Transformers, monocular depth estimation, PyTorch
 - **Datasets**: [NYU Depth V2 dataset](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html).
 
 ---
