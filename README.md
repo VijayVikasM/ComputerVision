@@ -37,7 +37,7 @@ This repository contains a collection of computer vision projects aimed at build
 ### Project 1: Real-Time Pose Estimation Using OpenPose
 - **Description**: Detect and analyze human poses in real-time video feeds using OpenPose.
 - **Skills**: Pose estimation, OpenPose, OpenCV.
-- **Datasets**: [COCO keypoints dataset](http://cocodataset.org/#keypoints-2019).
+- **Datasets**: [Micheal Jackson Tilt Video](https://www.youtube.com/@michaeljacksonhd9516).
 
 ### Project 2: Gesture Recognition from Human Poses
 - **Description**: Recognize basic gestures (like waving, thumbs up) using keypoints from pose estimation.
